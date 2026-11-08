@@ -6,9 +6,11 @@
 /*   By: kaydan <kaydan@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 15:01:28 by kaydan            #+#    #+#             */
-/*   Updated: 2026/11/07 15:55:09 by kaydan           ###   ########.fr       */
+/*   Updated: 2026/11/08 12:24:16 by kaydan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_printf.h"
 
 int	ft_print_ptr(unsigned long n)
 {
@@ -18,7 +20,7 @@ int	ft_print_ptr(unsigned long n)
 	count = 0;
 	if (n == 0)
 	{
-		temp = ft_print_str("0x0");
+		temp = ft_print_str("(nil)");
 		if (temp == -1)
 			return (-1);
 		return (temp);

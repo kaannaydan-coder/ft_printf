@@ -6,9 +6,11 @@
 /*   By: kaydan <kaydan@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 14:30:09 by kaydan            #+#    #+#             */
-/*   Updated: 2026/11/07 15:24:33 by kaydan           ###   ########.fr       */
+/*   Updated: 2026/11/08 12:12:51 by kaydan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_printf.h"
 
 int	ft_print_char(int c)
 {

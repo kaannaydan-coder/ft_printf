@@ -6,7 +6,7 @@
 /*   By: kaydan <kaydan@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/10 20:53:34 by kaydan            #+#    #+#             */
-/*   Updated: 2026/11/07 15:51:51 by kaydan           ###   ########.fr       */
+/*   Updated: 2026/11/08 13:32:53 by kaydan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,7 @@ int	ft_printf(const char *format, ...)
 	int		temp;
 
 	count = 0;
+	temp = 0;
 	va_start(args, format);
 	while (*format)
 	{
